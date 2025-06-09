@@ -26,7 +26,7 @@ jobs:
 
     - name: Use your custom .config
       run: |
-        cp configs/n1.config lede/.config
+        cp n1.config lede/.config
 
     - name: Build firmware
       run: |
